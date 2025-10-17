@@ -87,3 +87,10 @@ fun TataletakRowColumn(modifier: Modifier) {
         }
     }
 }
+
+@Composable
+fun TataletakBoxColumnRow(modifier: Modifier) {
+    Column {
+        // Komponen kompleks akan ditambahkan di sini
+    }
+}
