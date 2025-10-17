@@ -121,5 +121,14 @@ fun TataletakBoxColumnRow(modifier: Modifier) {
             }
         }
         Spacer(modifier = Modifier.height(height = 10.dp))
+        Box(
+            modifier = modifier
+                .fillMaxWidth()
+                .height(300.dp)
+                .background(color = Color.Cyan),
+            contentAlignment = Alignment.Center
+        ) {
+            // Gambar dan Teks akan ditambahkan di sini
+        }
     }
 }
